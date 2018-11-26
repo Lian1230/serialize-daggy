@@ -1,3 +1,4 @@
+[![npm](https://img.shields.io/npm/v/meatball.svg)](http://npm.im/serialize-daggy)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/rametta/meatball/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -45,3 +46,4 @@ const str = stringify(obj)
 
 // put it back
 const newObj = parse(str)
+```
