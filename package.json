@@ -1,8 +1,8 @@
 {
   "name": "serialize-daggy",
   "version": "1.0.0",
-  "description": "Serialize daggy type or object with daggy type",
-  "main": "src/index.js",
+  "description": "Serialize daggy or object with daggy",
+  "main": "lib/index.js",
   "repository": "https://github.com/Lian-LF/serialize-daggy.git",
   "bugs": {
     "url": "https://github.com/Lian-LF/serialize-daggy/issues"

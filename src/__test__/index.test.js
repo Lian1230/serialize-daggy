@@ -30,10 +30,10 @@ test("test stringify and parse an obj with daggy type", t => {
   t.is(DaggyType.Yes.is(parsedDaggy_Yes), true)
   t.is(
     parsedDaggy_Yes.cata({
-      Yes: () => "Yes",
+      Yes: value => value,
       No: () => "No"
     }),
-    "Yes"
+    "lol"
   )
   t.is(DaggyType.No.is(parsedDaggy_No), true)
   t.is(
