@@ -1,0 +1,29 @@
+{
+  "name": "serialize-daggy",
+  "version": "1.0.0",
+  "description": "Serialize daggy type or object with daggy type",
+  "main": "src/index.js",
+  "repository": "https://github.com/Lian-LF/serialize-daggy.git",
+  "bugs": {
+    "url": "https://github.com/Lian-LF/serialize-daggy/issues"
+  },
+  "homepage": "https://github.com/Lian-LF/serialize-daggy#readme",
+  "author": "Lian-LF",
+  "license": "apache-2.0",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "ava": "1.0.0-rc.2",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0",
+    "daggy": "^1.3.0"
+  },
+  "peerDependencies": {
+    "daggy": "^1.3.0"
+  },
+  "scripts": {
+    "build": "npx babel src --out-dir lib",
+    "test": "ava"
+  }
+}

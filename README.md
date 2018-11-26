@@ -4,11 +4,9 @@
 
 # Currently only support taggedSum
 
-> [Future](https://github.com/fluture-js/Fluture) based redux side effects
+> Stringify and parse your [Daggy](https://github.com/fantasyland/daggy)
 
-*Alternative to rxjs and redux-observable*
-
-## Install
+<!-- ## Install
 ```sh
 yarn add meatball
 ```
@@ -65,4 +63,4 @@ const store = createStore(
 )
 ```
 
-[Real example](/example)
+[Real example](/example) -->
