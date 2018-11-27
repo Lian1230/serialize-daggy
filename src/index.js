@@ -33,16 +33,16 @@ const reviser = (key, value) =>
 
 exports.stringify = obj => {
   if (!obj || !(obj[TAG] || typeof obj === "object")) {
-    throw new TypeError("Arg given is not a daggy nor an object")
+    throw new TypeError(
+      `Arg given is not a daggy nor an object, receive: ${typeof obj}`
+    )
   }
   if (obj[TAG]) return stringifyDaggy(obj)
   return JSON.stringify(obj, replacer)
 }
 
 exports.parse = str => {
-  if (!str || typeof str !== "string") {
-    throw new TypeError("Arg given is not a string")
-  }
+  if (!str || typeof str !== "string") return str
   if (str.startsWith("DAGGY_")) return parseDaggyStr(str.substr(6))
   return JSON.parse(str, reviser)
 }
