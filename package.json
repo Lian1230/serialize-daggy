@@ -23,7 +23,7 @@
     "daggy": "^1.3.0"
   },
   "scripts": {
-    "build": "npx babel src --out-dir lib",
+    "build": "npx babel src --out-dir lib --ignore */__test__",
     "test": "ava",
     "publish": "yarn build && npm publish"
   }
