@@ -1,6 +1,6 @@
 {
   "name": "serialize-daggy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Serialize daggy or object with daggy",
   "main": "lib/index.js",
   "repository": "https://github.com/Lian-LF/serialize-daggy.git",
@@ -24,6 +24,7 @@
   },
   "scripts": {
     "build": "npx babel src --out-dir lib --ignore */__test__",
-    "test": "ava"
+    "test": "ava",
+    "push": "yarn build && yarn publish"
   }
 }
