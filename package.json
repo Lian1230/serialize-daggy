@@ -1,6 +1,6 @@
 {
   "name": "serialize-daggy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Serialize daggy or object with daggy",
   "main": "lib/index.js",
   "repository": "https://github.com/Lian-LF/serialize-daggy.git",
